@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  border-color: salmon;
+  border-radius: 10px;
+  width: 33%;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  color: white;
+  background-color: salmon;
+  border-color: salmon;
+  border-width: 2px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
